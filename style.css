@@ -15,7 +15,7 @@ img {
 
 h1 {
     font-size: 52px;
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 p {
@@ -38,9 +38,35 @@ b {
 }
 
 .bord {
-    border-top: 2px solid white;
+    border-top: 4px solid white;
 }
 
-.n-find {
-    border-top: 2px solid white;
+a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 300px;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(253, 253, 253);
+}
+
+nav {
+    text-align: right;
+    margin-top: 40px;   
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    border-bottom: 5px double white;
+    border-top: 5px double white;
+    padding-top: 18px;
+}
+
+a:hover {
+    color: rgb(207, 207, 207);
+    border-color: rgb(214, 212, 212);
+    box-shadow: 2px 2px 2px gray;
 }
