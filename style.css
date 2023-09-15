@@ -42,21 +42,25 @@ b {
 }
 
 .navi {
-    color: white;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
     text-decoration: none;
-    font-weight: 300px;
-    border: 4px solid white;
-    padding: 5px 15px;
-    border-radius: 10px;
-    margin-left: 15px;
-    box-shadow: 1px 1px 1px rgb(253, 253, 253);
-    transition: 0.5s linear;
+    padding: 20px 70px;
+    margin-left: 20px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-size: 200%;
+    transition: .5s;
+}
+
+.navi:hover {
+    background-position: right;
 }
 
 nav {
-    text-align: right;
-    margin-top: 40px;   
+    text-align: right; 
     padding-bottom: 20px;
     padding-left: 20px;
     display: flex;
@@ -65,11 +69,6 @@ nav {
     padding-top: 18px;
 }
 
-.navi:hover {
-    color: rgb(207, 207, 207);
-    border-color: rgb(214, 212, 212);
-    box-shadow: 2px 2px 2px gray;
-}
 
 .photo {
     text-align: center;
@@ -116,4 +115,41 @@ html {
 .dfoff {
     text-align: center;
     margin-left: 27px;
+}
+
+.off {
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to left, #c31432, #240b36);
+    text-decoration: none;
+    padding: 20px 70px;
+    margin-left: 250px;
+    border-radius: 30px;
+    border: none;
+    background-size: 200%;
+    transition: .5s;
+    border: 2px solid white;
+}
+
+.off:hover {
+    cursor: pointer;
+    background-position: right;
+    font-size: 25px;
+}
+
+#firs:hover {
+    font-size: 25px;
+}
+
+#second:hover {
+    font-size: 25px;
+}
+
+#last:hover {
+    font-size: 25px;
+}
+    
+#congr:hover {
+    font-size: 25px;
 }
